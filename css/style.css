@@ -1,6 +1,3 @@
-/*font-family: 'Nunito Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
-
 * {
     box-sizing: border-box;
 }
@@ -141,6 +138,7 @@ body {
 
 .hero {
     background-image: url(../images/image.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -449,7 +447,7 @@ body {
     flex-shrink: 0;
 }
 
-.form__checkbox-inpu:checked {
+.form__checkbox-input:checked {
     background-image: url(../images/iconcheck.svg);
     background-position: center;
     background-repeat: no-repeat;
