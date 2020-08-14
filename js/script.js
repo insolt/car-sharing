@@ -1,5 +1,5 @@
 const header = document.querySelector(".header");
-const hero = document.querySelector(".hero");
+//const hero = document.querySelector(".hero");
 
 window.addEventListener("scroll", function() {
     if (window.scrollY < 200) {
@@ -7,5 +7,5 @@ window.addEventListener("scroll", function() {
     } else {
         header.classList.add("header--sticky");
     }
-    hero.backgroundPositionY = -(window.scrollY * 0.2) + "px";
+    //hero.backgroundPositionY = -(window.scrollY * 0.2) + "px";
 })

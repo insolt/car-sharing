@@ -8,6 +8,8 @@
     --color-shadow: rgba(255, 0, 0, .3);
     --font1: 'Open Sans', sans-serif;
     --font2: 'Nunito Sans', sans-serif;
+    --c1: rgba(0, 0, 0, .1);
+    --c2: rgba(0, 0, 0, .6);
 }
 
 body {
@@ -135,6 +137,10 @@ body {
     background: rgba(255, 255, 255, .2);
 }
 
+.menu__list .is-active {
+    background: rgba(255, 255, 255, .2);
+}
+
 .hero {
     background-image: url(../images/image.jpg);
     /*background-attachment: fixed;*/
@@ -151,8 +157,6 @@ body {
 }
 
 .hero::before {
-    --c1: rgba(0, 0, 0, .1);
-    --c2: rgba(0, 0, 0, .6);
     content: "";
     position: absolute;
     left: 0;
@@ -457,4 +461,5 @@ body {
     border-radius: 30px;
     background: none;
     box-shadow: 0 3 6px var(--color-shadow);
+    cursor: pointer;
 }
